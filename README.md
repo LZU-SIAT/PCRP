@@ -15,7 +15,8 @@ This is the official implementation of "".
   Use `ntu_gendata_for_predictCluster_right.py` to reprocess raw data for view invariant transformation.
 
 ## Usage
-- pretrain and then linear evaluation:  `python pc_test.py`
+- pretrain and then linear evaluation:  
+  `python pc_test.py`
 
 
 ## License
