@@ -14,6 +14,8 @@ This is the official implementation of "".
   Download raw data from https://github.com/shahroudy/NTURGB-D.  
   Use `ntu_gendata_for_predictCluster_right.py` to reprocess raw data for view invariant transformation.
 
+Put the data into the folder that matches the codes in `pc_test.py`
+
 ## Usage
 - pretrain and then linear evaluation:  
   `python pc_test.py`
