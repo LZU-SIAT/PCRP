@@ -20,4 +20,4 @@ This is the official implementation of "".
 
 
 ## License
-AS-CAL is released under the MIT License.
+PCRP is released under the MIT License.
