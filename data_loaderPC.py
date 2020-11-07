@@ -247,7 +247,7 @@ def denormalize(norm_coords):
     denorm_coords[:, 2] = norm_coords[:, 1] * 10000 / 7.8125
 
     return denorm_coords
-# 没有进行原来程序的ntu_norm
+
 def parse_sbu_txt(pose_filepath, normalized=False):
     video_poses_mat = np.loadtxt(pose_filepath, delimiter=',', usecols=range(1, 91))
 
@@ -430,7 +430,7 @@ class MyDataset_sbu(Dataset):
         # data_numpy = np.zeros([C, self.max_frame, V, M])
         # data_numpy[:, :T , :, :] = raw_data
 
-        label = self.gt.iloc[index].action # 从0 开始
+        label = self.gt.iloc[index].action 
 
         # lens = self.gt.iloc[index].frames
 
