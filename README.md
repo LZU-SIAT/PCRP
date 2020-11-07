@@ -11,7 +11,7 @@ This is the official implementation of "".
 - NTU RGB+D 60:  
   Download  transformed data from https://github.com/shlizee/Predict-Cluster.
 - NTU RGB+D 120:  
-  Download raw data from https://github.com/shahroudy/NTURGB-D.
+  Download raw data from https://github.com/shahroudy/NTURGB-D.  
   Use `ntu_gendata_for_predictCluster_right.py` to reprocess raw data for view invariant transformation.
 
 ## Usage
