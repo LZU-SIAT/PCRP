@@ -6,10 +6,10 @@ This is the official implementation of "".
 - Python 3.6
 - Pytorch 1.0.1
 ## Datasets
-- N-UCLA:
-  Download the transformed data from https://github.com/shlizee/Predict-Cluster/tree/master/ucla_github_pytorch/UCLAdata
+- N-UCLA:  
+  Download  transformed data from https://github.com/shlizee/Predict-Cluster/tree/master/ucla_github_pytorch/UCLAdata
 - NTU RGB+D 60:  
-  Download the transformed data from https://github.com/shlizee/Predict-Cluster.
+  Download  transformed data from https://github.com/shlizee/Predict-Cluster.
 - NTU RGB+D 120:  
   Download raw data from https://github.com/shahroudy/NTURGB-D.
   Use `ntu_gendata_for_predictCluster_right.py` to reprocess raw data for view invariant transformation.
