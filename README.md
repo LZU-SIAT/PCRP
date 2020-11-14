@@ -1,7 +1,7 @@
 # PCRP
 
 ## Introduction
-This is the official implementation of "". 
+This is the official implementation of "Prototypical Contrast and Reverse Prediction: Unsupervised   Skeleton based Action Recognition". 
 ## Requirements
 - Python 3.6
 - Pytorch 1.0.1
