@@ -25,11 +25,11 @@ Put the data into the folder that matches the codes in `pc_test.py`
 PCRP is released under the MIT License.
 
 ## Citation
-`@misc{xu2020prototypical,  
+@misc{xu2020prototypical,  
       title={Prototypical Contrast and Reverse Prediction: Unsupervised Skeleton Based Action Recognition},   
       author={Shihao Xu and Haocong Rao and Xiping Hu and Bin Hu},  
       year={2020},  
       eprint={2011.07236},  
       archivePrefix={arXiv},  
       primaryClass={cs.CV}  
-}`
+      }
