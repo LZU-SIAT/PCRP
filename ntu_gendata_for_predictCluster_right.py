@@ -43,6 +43,7 @@ def ntu_tranform_skeleton(test):
         v2_ = test[time,12*3:12*3+3]-test[time,16*3:16*3+3]
         if v1.all() != 0 and v2_.all() != 0:
             frame = time
+            break
 
     d = test[frame,0:3]
     v1 = test[frame,1*3:1*3+3]-test[frame,0*3:0*3+3]
