@@ -477,6 +477,12 @@ def eval(trained_model):
     ckpt = torch.load(trained_model)
     load_state = ckpt['model_state_dict']
 
+
+
+    # hard load
+    model.load_state_dict(load_state)
+
+    # soft load
     state_dict = {k:v for k,v in load_state.items() if k in model_dict.keys()}
     if len(state_dict.keys()) == 0:
         raise ImportError('load failure')
