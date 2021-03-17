@@ -483,11 +483,11 @@ def eval(trained_model):
     model.load_state_dict(load_state)
 
     # soft load
-    state_dict = {k:v for k,v in load_state.items() if k in model_dict.keys()}
-    if len(state_dict.keys()) == 0:
-        raise ImportError('load failure')
-    model_dict.update(state_dict)
-    model.load_state_dict(model_dict)
+    # state_dict = {k:v for k,v in load_state.items() if k in model_dict.keys()}
+    # if len(state_dict.keys()) == 0:
+    #     raise ImportError('load failure')
+    # model_dict.update(state_dict)
+    # model.load_state_dict(model_dict)
 
 
 
