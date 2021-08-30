@@ -20,6 +20,8 @@ Put the data into the folder that matches the codes in `pc_test.py`
 - pretrain and then linear evaluation:  
   `python pc_test.py`
 
+## Learned Models
+https://drive.google.com/drive/folders/1cck_0od9LqMIt2fvCOcca956dvCJTxcR?usp=sharing
 
 ## License
 PCRP is released under the MIT License.
